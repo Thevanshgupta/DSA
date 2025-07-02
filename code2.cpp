@@ -1,14 +1,16 @@
 // to take name,roll,and cgpa of two student and print it. and take data using getdata() function and print it using putdata()function.
 #include<iostream>
+#include<string>
 using namespace std;
 class btech {
     int roll;
-    char name;
+    string name;
     float cgpa;
 public:
     void getdata() {
         cout << "Enter name: ";
-        cin >> name;
+        //cin >> name;//it sh0ws the error while having full name
+        getline(cin, name);
         cout << "Enter roll: ";
         cin >> roll;
         cout << "Enter cgpa: ";
@@ -20,7 +22,7 @@ public:
         cout << "CGPA: " << cgpa << endl;
     }
 };
-
+// seprater
 int main(){
 
     btech vansh;
