@@ -1,0 +1,47 @@
+data type: Primitive & non Primitive
+
+Primitive: numeric & void & non numeric
+
+numeric: Exact & approx
+exact : int bool
+
+approx: single(float) & double(double)
+
+non numeric: char& wide char& void
+
+non- Primitive: derived and user define data type(UDA)
+
+derived: Array & F(n) & pointer & reference(c++)
+
+
+UDA: typedef & union & enum & struct & class
+
+deep copy vs shallow copy: 
+
+
+
+
+Methods: function in the class is callled methods:
+ways to declare methods in C++: inside class and outside the class
+:    methods define and declared in the class I(inside class methdos)
+:   methods declared in the class I(inside class methdos) but define outside class using scope resolution operator.
+
+
+constructor : special member in c++ which is automatically involed or called when the object of the class is created
+key points: 
+    1. constructor name == class name: constructor have same name in c++
+    2. automatically invoked when at the time of object creation.
+    3.  for the every time memory is allocated when object creation
+    4. they dont have 
+    with respect parametrized structure we can pass the aruments at the time of object creation with the help paratheses ()
+
+    note should always public.
+
+
+    types of constructor:
+    majorly 3 types:
+    1 default: automatically invoked or impecity passed with the language processor when do not create any constructor
+    2 parametrized: a constructor doest have any parameters
+    3 
+
+encapsulation: rapping of data as member function and in single unit is knows as encapsulation
