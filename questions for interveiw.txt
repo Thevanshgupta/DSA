@@ -1,0 +1,2 @@
+diff between data structure and data type?
+deep copy vs shallow copy: 
