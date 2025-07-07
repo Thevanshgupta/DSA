@@ -42,6 +42,34 @@ key points:
     majorly 3 types:
     1 default: automatically invoked or impecity passed with the language processor when do not create any constructor
     2 parametrized: a constructor doest have any parameters
-    3 
+    3 copy constructor: a spcial constructor in c++ who creates a copy of an existing object.
+        types of copy constructor:
+        1. default copy constructor: 
+        2. custom copy constructor: we can create with the help of programmmer
+        3. 
+shallow copy and deep copy:
+
 
 encapsulation: rapping of data as member function and in single unit is knows as encapsulation
+
+
+
+
+if the pointer from stack is delete:
+   1. no access to the memory.
+   2. no access to the data.
+   3. memory cannot be used.
+   4. 4 byte of space is lost (memory leaks).
+
+to avoide this:
+    free(p)
+
+
+    constant pointer : const float *const helloptr=&hello; only if hello is defined
+
+
+function:
+ types:
+        libary and udf and special fn
+
+ehat is recurrsion
