@@ -73,3 +73,20 @@ function:
         libary and udf and special fn
 
 ehat is recurrsion
+
+Malloc(): malloc stands for memeory allocation, it allocate memory dynamically.
+    - use stdlib.h libary
+ - it allocate memory in bytes.
+ - we have to pass number of bytes we need to allocate dynamically.
+ - it return NULL ub case of fail to allocate memroy.
+ - it allocate contiguous number of blocks.
+ - it return void pointer, so need to type cast it.
+
+
+types of conbstructor:
+        points: constructor did bit have any return type
+        we cab not call conbstructor function, it was invoke when object of a class is created
+        conbstructor can be overide.
+
+        constructor are the function define inside class and function name must be same as class name.
+
