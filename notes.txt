@@ -83,10 +83,31 @@ Malloc(): malloc stands for memeory allocation, it allocate memory dynamically.
  - it return void pointer, so need to type cast it.
 
 
-types of conbstructor:
         points: constructor did bit have any return type
         we cab not call conbstructor function, it was invoke when object of a class is created
-        conbstructor can be overide.
+        conbstructor can be overload.
 
         constructor are the function define inside class and function name must be same as class name.
 
+    types of conbstructor:
+    1. default conbstructor: constuctor which do not have any parameters called default
+    2. parametrized constructor: having parameter is called 
+    3. copy conbstructor: that initialized an object using another object of the same class.
+
+
+    note: for every constructor call, there must have constructor defination. otherwise it shows error
+ if we not define comiler define it self
+
+Distructor: it is used to destroy the objext.
+    - in other word it deallocate memory allocated by constructor.
+       
+this keyword:
+    this is the constant pointer which contain address of current object
+
+Static data member:
+    it define using static keyword
+    - When static is used with data member in a class, it make the variable shared among all instance of the class
+    static int stv;
+    then btech::stv=2;\ 
+
+static member function:
