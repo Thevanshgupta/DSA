@@ -7,6 +7,42 @@ class node {
         node* next;
 
 };
+// void add(node * &head, int d) {
+//         node* newNode=new node;
+//         newNode->data=d;
+//         newNode->next=head;
+//         newNode->prev=nullptr;
+//         if (head!=nullptr){
+//             head->prev=newNode;
+//         }
+//         head=newNode;
+        
+
+        // head = newNode;
+    
+    // }
+    void deleteSeries(node* &head, int f,int l){
+        // node*head
+        int pos=1;
+        while(temp&&pos<f){
+            temp=temp->next;
+            pos++;
+        }
+        node* start =temp;
+        while(temp&&pos<=l){
+            temp=temp->next;
+            poss++
+        }
+        node* end=temp;
+
+    }
+
+
+
+
+
+
+    
         void print(node * head) {
                 node* temp = head;
                 while (temp ->next!= nullptr) {
@@ -31,5 +67,6 @@ int main() {
     n3->next=n4;
     n4->prev=n3;
     print(n3);
+    add(n1,21);
     return 0;
 }
