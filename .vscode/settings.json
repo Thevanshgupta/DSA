@@ -5,7 +5,8 @@
     "istream": "cpp",
     "string": "cpp",
     "vector": "cpp",
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "type_traits": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
