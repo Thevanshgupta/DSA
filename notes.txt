@@ -111,3 +111,11 @@ Static data member:
     then btech::stv=2;\ 
 
 static member function:
+
+
+stack:
+1. push(): save the ele
+2. pop(): remove the top ele
+3 top(): return the top ele of stack
+4 empty(): return true if stack is empty other wise false
+5/ size(): return the number of ele in stack
