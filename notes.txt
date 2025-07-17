@@ -119,3 +119,13 @@ stack:
 3 top(): return the top ele of stack
 4 empty(): return true if stack is empty other wise false
 5/ size(): return the number of ele in stack
+
+
+time complexity :
+not actual time taken but amount of time taken as function of input size(n)
+three types:
+    1 worst case O.
+    2 average theta
+    3 best omega
+space complexity
+amount of space taken by an algo as function of input size
